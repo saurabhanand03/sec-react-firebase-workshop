@@ -9,7 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollection } from "react-firebase-hooks/firestore";
 
 firebase.initializeApp({
-  // Your firebase config
+  // Your web app's Firebase configuration
 });
 
 const auth = firebase.auth();
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Chat</h1>
+        <h1>Gator Chat</h1>
         <SignOut />
       </header>
 
